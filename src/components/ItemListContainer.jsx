@@ -1,7 +1,7 @@
-const ItemListContainer = ({greeting}) => {
+const itemListContainer = ({greeting}) => {
     return (
-        <Wrapper>{greeting}</Wrapper>
+        <h4>{greeting}hola mundo ItemListContainer</h4>
     );
 }
 
-export default ItemListContainer; 
+export default itemListContainer; 
